@@ -1,27 +1,20 @@
-# 字典操作
-things = ["1", "2", "3", "4"]
-print(things[1])
-things[1] = 'z'
-print(things)
+# stuff = {'name': 'Zed', 'age': 39, 'height': 6 * 12 + 2}
+# print(stuff['name'])
+# print(stuff['age'])
+# print(stuff['height'])
+# stuff['city'] = "SF"
+# print(stuff['city'])
+# stuff[1] = "Wow"
+# stuff[2] = "Neato"
+# print(stuff)
+#
+# del stuff[1]
+# del stuff[2]
+# del stuff['city']
 
-# dict eg:
 
+# create a mapping of state to abbreviation
 states = {
-    'Oregon': "OR",
-    "Florida": "FL",
-    "California": "CA",
-    "New York": "NY",
-    "Michigan": "MI"
+    'Oregon': 'OR',
+    "Florida": 'FL'
 }
-
-cities = {
-    "CA": "San Francisco",
-    "MI": "Detroit",
-    "FL": "Jacksonville"
-}
-
-cities['NY'] = "Mew York"
-cities['OR'] = 'Portland'
-
-# print out some cities
-print("-" * 10)

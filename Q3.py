@@ -1,3 +1,4 @@
+import sys
 # 数学和数学计算
 print("I will now count my chickens: ")
 print("Hens", 25 + 30 / 6)
@@ -13,3 +14,7 @@ print("How about some more.")
 print("Is it greater?", 5 > -2)
 print("Is it greater or equal?", 5 >= -2)
 print("Is it less or equal?", 5 <= -1)
+print(sys.getsizeof(0))
+"""
+python 的int 和 float 都是变长的，内部是数组
+"""

@@ -16,4 +16,10 @@ print(tabby_cat)
 print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
-
+# 转义字符的输出
+print("*"*10)
+print("\\")
+print("\'")
+print("\"")
+print("\a")
+print("\b")
